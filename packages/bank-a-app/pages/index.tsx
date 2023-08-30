@@ -417,7 +417,7 @@
 
 // export default Index;
 
-import { MortgageCalculator } from '@banking-web-apps/shared/ui';
+import { SharedUi } from '@banking-web-apps/shared/ui';
 import styles from './index.module.css';
 
 export function Index() {
@@ -430,7 +430,7 @@ export function Index() {
           </div>
 
           <div id="middle-content">
-            <MortgageCalculator />
+            <SharedUi />
           </div>
         </div>
       </div>
